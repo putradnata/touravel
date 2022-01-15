@@ -107,7 +107,7 @@ const Home = () => {
           <img src={GirlImage} className="" />
         </div>
       </div>
-      <div className="container mx-auto mb-10 flex flex-col gap-14 lg:gap-20">
+      <div className="container mx-auto mb-20 flex flex-col gap-14 lg:gap-20 lg:mb-36">
         <div className="flex flex-col gap-3 lg:gap-5">
           <p className="uppercase text-yellowtravel font-semibold text-center text-xl">
             What We Serve
@@ -170,6 +170,17 @@ const Home = () => {
             cardDescription="We also provide lodging near the 
             destination where you are visiting."
           />
+        </div>
+      </div>
+
+      <div className="container mx-auto mb-36">
+        <div className="flex flex-col gap-2 text-center lg:text-left">
+          <p className="uppercase text-yellowtravel font-semibold text-xl">
+            Top Destination
+          </p>
+          <h2 className="text-gray-700 capitalize text-4xl font-bold">
+            Explore Top Destination
+          </h2>
         </div>
       </div>
     </div>
